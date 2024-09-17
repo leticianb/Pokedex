@@ -49,3 +49,26 @@ body {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    background-color: #ffd207;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+    padding: .25rem .5rem;
+    font-size: 1rem;
+    margin: .25rem 0;
+}
+
+#title {
+    text-align: center;
+}
